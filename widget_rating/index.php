@@ -18,25 +18,26 @@
     </head>
     <body>
         <p class="stars">
-            <i data-rating-value="1" data-rating-txt="1" class="selected"></i>
-            <i data-rating-value="2" data-rating-txt="2" class="cur selected"></i>
-            <i data-rating-value="3" data-rating-txt="3"></i>
-            <i data-rating-value="4" data-rating-txt="4"></i>
-            <i data-rating-value="5" data-rating-txt="5"></i>
+            <i data-rating-value="1" data-rating-txt="1分" data-rating-tip="很不喜欢" class="selected"></i>
+            <i data-rating-value="2" data-rating-txt="2分" data-rating-tip="不喜欢" class="cur selected"></i>
+            <i data-rating-value="3" data-rating-txt="3分" data-rating-tip="一般般"></i>
+            <i data-rating-value="4" data-rating-txt="4分" data-rating-tip="还不错"></i>
+            <i data-rating-value="5" data-rating-txt="5分" data-rating-tip="非常好"></i>
             <span class="score"></span>
         </p>
 
         <p class="stars">
-            <i data-rating-value="1" data-rating-txt="1" class="cur selected"></i>
-            <i data-rating-value="2" data-rating-txt="2"></i>
-            <i data-rating-value="3" data-rating-txt="3"></i>
-            <i data-rating-value="4" data-rating-txt="4"></i>
-            <i data-rating-value="5" data-rating-txt="5"></i>
+            <i data-rating-value="1" data-rating-txt="1分" data-rating-tip="很不喜欢" class="selected"></i>
+            <i data-rating-value="2" data-rating-txt="2分" data-rating-tip="不喜欢" class="cur selected"></i>
+            <i data-rating-value="3" data-rating-txt="3分" data-rating-tip="一般般"></i>
+            <i data-rating-value="4" data-rating-txt="4分" data-rating-tip="还不错"></i>
+            <i data-rating-value="5" data-rating-txt="5分" data-rating-tip="非常好"></i>
             <span class="score"></span>
         </p>
 
 
-        <script type="text/javascript" charset="utf-8" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../lib/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="rating.js"></script>
         <script>
             $(document).ready(function(){
                 $('.stars').rating();
