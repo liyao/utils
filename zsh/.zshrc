@@ -10,6 +10,11 @@ ZSH_THEME="prose"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias im="cd /data/app/gitlab/im"
+alias gitlab="cd /data/app/gitlab"
+alias utils="cd /data/utils"
+
+
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
