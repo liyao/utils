@@ -5,22 +5,30 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="prose"
+# ZSH_THEME="prose"
+ZSH_THEME="summer"
+
+#ZSH_THEME="random"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias utils="cd /data/utils"
 alias im="cd /data/app/gitlab/im"
 alias gitlab="cd /data/app/gitlab"
-alias utils="cd /data/utils"
-
-
-
-# Set to this to use case-sensitive completion
+alias htdocs="cd /Applications/XAMPP/htdocs"
+alias ll="ls -l"
+alias la="ls -a"
+alias www.mogujie.com="cd /data/app/www.mogujie.com"
+alias ams="cd /data/app/gitlab/ams"
+alias winport="cd /data/app/gitlab/mogu_winport"
+alias gst="git status"
+alias gc="git commit"
+#Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
 # Uncomment this to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
@@ -50,7 +58,7 @@ alias utils="cd /data/utils"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git,svn)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,5 +79,3 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-source ~/.bash_profile
