@@ -1,6 +1,6 @@
 zsh的主题需要搭配oh my zsh使用，具体的安装可以参考以下文献：
 
-终极shell (http://macshuo.com/?p=676)
+- 终极shell (http://macshuo.com/?p=676)
 
 .zshrc 为zsh的配置文件，目录为 ~/.zshrc
 
